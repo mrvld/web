@@ -1,0 +1,30 @@
+
+div
+{
+	/*border: solid 1px black;*/
+}
+
+#menu
+{
+	background-color: #83E3FF;
+	box-shadow: 0 -5px 10px rgba(0,0,0,0.5) ;
+}
+#title
+{
+	background-color: #5331EB; 
+}
+#footer
+{
+	background-color: #F0F7F0;
+}
+
+
+.menu_text
+{
+	font-family:Bradley Hand, cursive;
+}
+
+.menu_text:hover
+{
+	
+}
