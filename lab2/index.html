@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="module" src = "main.js"></script>
+	<title>Lab 2</title>
+</head>
+<body>
+	<div style="padding: 20px;">
+		<div class="row" style="height:600px">
+			<div style="width: 50%">
+				<textarea id = "InputText" placeholder="Insert your text here!" style="width:100%;height: 100%;border:1px solid black"></textarea>
+			</div>
+			<div id = "FormatText" style = "width:50%;word-wrap:break-word;border:1px solid black"></div>
+		</div>
+		<div class="row">
+			<button id = "sB"><b>B</b></button>
+			<button id = "sI"><i>I</i></button>
+			<button id = "sU"><u>U</u></button>
+			<select id="SelectColor">
+				<option disabled>Select color</option>
+				<option selected value = "black">Black</option>
+				<option value = "red">Red</option>
+				<option value = "green">Green</option>
+				<option value = "blue">Blue</option>
+				<option value = "yellow">Yellow</option>
+				<option value = "orange">Orange</option>
+			</select>
+			<select id="SelectRegister">
+				<option disabled>Select register</option>
+				<option selected value = "Ab">Ab</option>
+				<option value = "AB">AB</option>
+				<option value = "ab">ab</option>
+			</select>
+			<select id="SelectFontSize">
+				<option disabled>Select Font Size</option>
+				<option selected value = "10">10</option>
+				<option value = "12">12</option>
+				<option value = "14">14</option>
+				<option value = "16">16</option>
+				<option value = "18">18</option>
+				<option value = "20">20</option>
+			</select>
+		</div>
+	</div>
+</body>
+</html>
